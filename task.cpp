@@ -24,8 +24,6 @@ class son : public father
 			cout<<"Father Give To Son = $"<<sum<<endl;
 		}
 		
-	
-	
 };
 class daughter : public father 
 {
@@ -36,18 +34,14 @@ class daughter : public father
 			sum1=500-350;
 			cout<<"Father Give To Daughter = $"<<sum1<<endl;
 		}
-		
-	
 	
 };
-
-
 int main()
 {
-	son beta;
-	daughter beti;
-	beta.display2();
-    beti.display3();
+	son obj;
+	daughter obj1;
+	obj.display2();
+    obj1.display3();
    
 	return 0;
 }

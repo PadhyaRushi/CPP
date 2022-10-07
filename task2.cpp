@@ -13,6 +13,7 @@ class father
 		}
 		
 };
+
 class mother 
 {
 	protected :
@@ -24,6 +25,7 @@ class mother
 		}
 		
 };
+
 class son : public father ,public mother
 {
 	public:
@@ -40,8 +42,8 @@ class son : public father ,public mother
 	
 	
 };
-class daughter : public father ,public mother
 
+class daughter : public father ,public mother
 {
 	public:
 		void display3()
@@ -51,12 +53,8 @@ class daughter : public father ,public mother
 			sum2=500-100;
 			cout<<"Father Give To Son $"<<sum<<"Mother Give To Son $"<<sum2<<endl;
 		}
-		
-		
-	
 	
 };
-
 
 int main()
 {
